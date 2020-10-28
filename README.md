@@ -13,6 +13,6 @@ pset = problem set
 
 ## [Pset 4](https://cs50.harvard.edu/x/2020/psets/4/)
 
-## [Pset 5](https://cs50.harvard.edu/x/2020/psets/5/)s
+## [Pset 5](https://cs50.harvard.edu/x/2020/psets/5/)
 
 ## [Pset 6](https://cs50.harvard.edu/x/2020/psets/6/)
