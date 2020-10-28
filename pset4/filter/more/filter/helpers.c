@@ -60,7 +60,7 @@ RGBTRIPLE foundAvarage(int i, int j, int height, int width, RGBTRIPLE image[heig
     {
         for (int l = -1; l < 2; l++)
         {
-            if (isInside i + k, j + l, height, width))
+            if (isInside (i + k, j + l, height, width))
             {
                 count++;
                 RGBTRIPLE pixel = image[i + k][j + l];
