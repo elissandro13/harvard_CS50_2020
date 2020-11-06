@@ -13,19 +13,15 @@ for c in text:
     elif c.isspace():
         words += 1.0
 
-L =  letters /  words  * 100.0
-S =  sentences /  words  * 100.0
-index = (0.0588 * L  - 0.296 * S) - 15.8
+L = letters / words * 100.0
+S = sentences / words * 100.0
+index = (0.0588 * L - 0.296 * S) - 15.8
 
 index = int(round(index))
 
 if index < 1:
-     print("Before Grade 1")
+    print("Before Grade 1")
 elif index > 16:
     print("Grade 16+")
 else:
     print(f'Grade {index}')
-
-
-
-

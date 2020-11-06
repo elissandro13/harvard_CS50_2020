@@ -23,7 +23,7 @@ void print_winner(void);
 int main(int argc, string argv[])
 {
 
-    if(argc < 2)
+    if (argc < 2)
     {
         printf("Usage: plurality [candidate ...]\n");
         return 1;
@@ -31,7 +31,7 @@ int main(int argc, string argv[])
 
     candidate_count = argc - 1;
 
-    if (candidate_count > MAX )
+    if (candidate_count > MAX)
     {
         printf("Maximum number of candidates is %i\n", MAX);
         return 1;
