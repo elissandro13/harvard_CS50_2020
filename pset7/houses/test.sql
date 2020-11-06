@@ -1,0 +1,1 @@
+SELECT first, middle, last, birth from students WHERE house = "Gryffindor" ORDER BY last, first;
