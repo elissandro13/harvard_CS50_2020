@@ -6,9 +6,9 @@ Problems solutions for harvard  computer science course
 pset = problem set
 
 
-## [Pset 0]('https://cs50.harvard.edu/x/2021/weeks/0)
+## [Pset 0](https://cs50.harvard.edu/x/2021/weeks/0)
 
-## [Pset 1]('https://cs50.harvard.edu/x/2021/weeks/1)
+## [Pset 1](https://cs50.harvard.edu/x/2021/weeks/1)
 
 ## [Pset 2](https://cs50.harvard.edu/x/2021/weeks/2/)
 
