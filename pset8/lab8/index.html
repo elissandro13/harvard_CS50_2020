@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+
+    </head>
+    <body>
+
+         <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>How many Kangaroos exists in Australia?</h3>
+                <div id="question1">
+                    <button value="1">150 thousand </button>
+                    <button value="2">27 millions</button>
+                    <button value="3">4 millions</button>
+                </div>
+                <!-- TODO: Add multiple choice question here -->
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Type the first year of WW1: </h3>
+                <div id="question2">
+
+                    <input type="text">
+                    <button>Confirm</button>
+                </div>
+
+                <!-- TODO: Add free response question here -->
+
+            </div>
+
+        </div>
+        <script>
+
+            // TODO: Add code to check answers to questions
+            let el = document.querySelector("h3");
+            let answ = document.createElement("h4");
+            el.appendChild(answ);
+            btnsEl = document.querySelectorAll("#question1 button");
+            btnsEl.forEach(element => {
+                element.addEventListener("click", () => {
+                    if(element.value == 2)
+                    {
+                        element.style.backgroundColor = "green";
+                        answ.textContent = "Correct!";
+                    } else {
+                        element.style.backgroundColor = "red";
+                        answ.textContent = "Incorrect!";
+                    }
+                })
+            });
+
+            let btnEl = document.querySelector("#question2 button");
+            let inputEl = document.querySelector("#question2 input");
+            let elNode = document.querySelectorAll("h3")[1];
+            let answ2 = document.createElement("h4");
+            elNode.appendChild(answ2);
+            btnEl.addEventListener("click", () => {
+                    if(inputEl.value == "1914"){
+                        inputEl.style.backgroundColor = "green"
+                        answ2.textContent = "Correct!";
+                    } else {
+                        inputEl.style.backgroundColor = "red"
+                        answ2.textContent = "Incorrect!";
+                    }
+
+            })
+
+
+
+        </script>
+    </body>
+</html>
